@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" type="image/png" href="img/photo.png" />
+	<title>Yernaux Jordan</title>
+</head>
+<body>
+
+<!--
+YERNAUX Jordan
+JUNE 2018
+ver. 02
+-->
+
+	<!-- header -->
+	<header id="home" class="header">
+
+		<!-- navigation -->
+		<div class="container">
+			<div class="navbar__capsule">
+				<div class="navbar">
+
+					<!-- logo -->
+					<p class="navbar__logo"><a href="#"><img src="img/logo.svg"></a></p>
+					
+					<nav class="navbar__nav">
+						<!-- liens de navigation -->
+						<ul class="navcontent__items">
+							<li class="navcontent__item"><a class="navcontent__item__link navcontent__item__link--active" href="#">HOME</a></li>
+							<li class="navcontent__item"><a class="navcontent__item__link" href="#about">ABOUT</a></li>
+							<li class="navcontent__item"><a class="navcontent__item__link" href="#projects">PROJECTS</a></li>
+							<li class="navcontent__item"><a class="navcontent__item__link" href="#contact">CONTACT</a></li>
+						</ul>
+					</nav>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="headercontent">
+
+				<!-- titles + button -->
+				<div class="titlecontent">
+					<p class="titlecontent__smalltitle">Discover me and my projects</p>
+					<h1 class="titlecontent__mainttitle">WELCOME TO MY <span class="titlecontent__mainttitle--bold">PORTFOLIO</span></h1>
+					<a class="titlecontent__button" href="#about">
+						<p class="button">Learn more</p>
+					</a>
+				</div>
+
+				<p class="textmore"><span>MORE BELOW</span></p>
+
+			</div>
+		</div>
+
+		<video class="bgvid" poster="img/video.png" autoplay loop>
+			<source src="img/video.mp4" type="video/mp4">
+			<source src="img/video.webm" type="video/webm">
+		</video>
+
+	</header>	
+
+	<!-- container + affectation particulière pour "about" car placement de background -->
+	<div id="about" class="content__module content__module--about">
+
+		<div class="container">
+		<!-- container d'éléments -->
+			<div class="aboutcontent">
+
+				<!-- titre + description + text -->
+				<h2 class="aboutcontent__title">Meet Jordan</h2>
+				<p class="aboutcontent__description">Hi ! My name is Jordan Yernaux. Welcome to my personnal digital playground.</p>
+				<p class="aboutcontent__text">Well, here's a little description of myself: I'm student at IAD (Institut des Arts de Diffusion) in Belgium, and I'm on my way to become a Graphic Designer/3D Artist.</p>
+				<p class="aboutcontent__text">I like music, video games, cinema and more but it’s not the reason you're here for, isn’t it? Then please check out what's down below.</p>
+				<p class="aboutcontent__text aboutcontent__text--last">Enjoy the reading, I'll look forward to working with you.</p>
+
+				<!-- container d'image de skills -->
+				<ul class="aboutcontent__skillscontent">
+
+						<!-- block contenant l'image en background + le % au centre -->
+					<li class="skillsitem">
+						<p class="skillsitem__in skillsitem__in--ps">75%</p>
+						<!-- Texte en dessous -->
+						<p class="skillsitem__name">Photoshop</p>
+					</li>
+
+					<li class="skillsitem">
+						<p class="skillsitem__in skillsitem__in--ai">75%</p>
+						<p class="skillsitem__name">Illustrator</p>
+					</li>
+
+					<li class="skillsitem">
+						<p class="skillsitem__in skillsitem__in--maya">25%</p>
+						<p class="skillsitem__name">Maya</p>
+					</li>
+
+					<li class="skillsitem">
+						<p class="skillsitem__in skillsitem__in--ae">50%</p>
+						<p class="skillsitem__name">After Effects</p>
+					</li>
+
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- PROJECTS -->
+	<div id="projects" class="content__module content__module--grid">
+
+		<!-- titre du container "projects" -->
+		<ul class="grid__content">
+
+			<li class="grid__item grid__item--title">
+				<div class="grid__project">
+					<div class="project__title">
+						<p class="grid__title">DESIGN</p>
+						<p class="grid__title">PROJECTS</p>
+						<p class="grid__subtitle">Recent and older projects of mine</p>
+					</div>
+				</div>
+			</li>
+
+			<li class="grid__item grid__item--01">
+				<div class="grid__project">
+					<a class="project__link" href="project_01.html">
+						<img class="project__img" src="img/project01/full.png">
+						<div class="project__info">
+							<p class="info__title">Animation</p>
+							<p class="info__subtitle">Student work</p>
+							<p class="info__soft">on After Effect</p>
+						</div>
+					</a>
+				</div>
+			</li>
+			
+			<li class="grid__item grid__item--02 grid__item--hauteur">
+				<div class="grid__project">
+					<a class="project__link" href="project_02.html">
+						<img class="project__img" src="img/project02/full.png">
+						<div class="project__info">
+							<p class="info__title">Character</p>
+							<p class="info__subtitle">Student work</p>
+							<p class="info__soft">on Maya</p>
+						</div>
+					</a>
+				</div>
+			</li>
+
+			<li class="grid__item grid__item--03">
+				<div class="grid__project">
+					<a class="project__link" href="project_03.html">
+						<img class="project__img" src="img/project03/full.png">
+						<div class="project__info">
+							<p class="info__title">Scene</p>
+							<p class="info__subtitle">Student work</p>
+							<p class="info__soft">on Maya</p>
+						</div>
+					</a>
+				</div>
+			</li>
+
+			<li class="grid__item grid__item--04">
+				<div class="grid__project">
+					<a class="project__link" href="project_04.html">
+						<img class="project__img" src="img/project04/fullsite.png">
+						<div class="project__info">
+							<p class="info__title">Website</p>
+							<p class="info__subtitle">Student work</p>
+							<p class="info__soft">on Sketch</p>
+						</div>
+					</a>
+				</div>
+			</li>
+
+			<li class="grid__item grid__item--05 grid__item--largeur">
+				<div class="grid__project">
+					<a class="project__link" href="project_05.html">
+						<img class="project__img" src="img/project05/full.png">
+						<div class="project__info">
+							<p class="info__title">Motion Design</p>
+							<p class="info__subtitle">Student work</p>
+							<p class="info__soft">on After Effects</p>
+						</div>
+					</a>
+				</div>
+			</li>
+
+			<li class="grid__item grid__item--06">
+				<div class="grid__project">
+					<a class="project__link" href="project_06.html">
+						<img class="project__img" src="img/project06/full.png">
+						<div class="project__info">
+							<p class="info__title">Mini-FX</p>
+							<p class="info__subtitle">Student work</p>
+							<p class="info__soft">Multi-Software</p>
+						</div>
+					</a>
+				</div>
+			</li>
+
+			<li class="grid__item empty--1"></li>
+			<li class="grid__item empty--2"></li>
+
+		</ul>
+	</div>
+
+	<!-- container contact -->
+	<div class="content__module content__module--contact">
+		
+		<!-- block contenant la partie contact -->
+		<div class="container container--center">
+
+			<div class="contactcontent">
+				<!-- text + img/lien des socials -->
+				<p class="contactcontent__text">If you want to <span class="contactcontent__text--red">contact me</span>, you can use my social networks.</p>
+				<ul class="contactcontent__socialcontent">
+					<li class="social__item">
+						<a class="social__link" href="http://www.linkedin.com/in/yernauxjordan
+						"><img class="social__link__img" src="img/linkedin.svg"></a>
+					</li>
+					<li class="social__item">
+						<a class="social__link" href="https://www.artstation.com/wanezz"><img class="social__link__img" src="img/artstation.svg"></a>
+					</li>
+					<li class="social__item">
+						<a class="social__link" href="https://twitter.com/wanezztv"><img class="social__link__img" src="img/twitter.svg"></a>
+					</li>
+					<li class="social__item">
+						<a class="social__link" href="mailto:yernauxjordan@gmail.com"><img class="social__link__img" src="img/mail.svg"></a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+	</div>
+
+
+	<!-- container footer -->
+
+	<div id="contact" class="content__footer">
+
+	<div class="container">
+			<div class="navbar">
+
+				<p class="navcontent__copyright">&copy; 2018 <span class="navcontent__copyright--bold">Yernaux Jordan</span></p>
+				
+				<nav class="navbar__nav">
+					<!-- liens de navigation -->
+					<ul class="navcontent__items">
+						<li class="navcontent__item"><a class="navcontent__item__link--footer" href="#home">HOME</a></li>
+						<li class="navcontent__item"><a class="navcontent__item__link--footer" href="#about">ABOUT</a></li>
+						<li class="navcontent__item"><a class="navcontent__item__link--footer" href="#projects">PROJECTS</a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</div>
+
+
+	<!-- chargement du script pour le menu -->
+	<script src="js/menu.js"></script>
+
+</body>
+</html>
