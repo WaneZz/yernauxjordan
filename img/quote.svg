@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="53px" viewBox="0 0 70 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>quote-left copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="modules_projects_website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-501.000000, -3016.000000)">
+        <g id="Group" transform="translate(501.000000, 3016.000000)" fill="#FF343C" fill-rule="nonzero">
+            <g id="quote-left">
+                <path d="M40.8333333,53 L40.8333333,31.2376111 C40.8333333,14.4425 51.7339477,3.05927778 67.0783666,0 L69.9853918,6.3335 C62.8799793,9.03355556 58.3134662,17.0453889 58.3134662,23.5555556 L70,23.5555556 L70,53 L40.8333333,53 Z M0,53 L0,31.2376111 C0,14.4425 10.9360411,3.05927778 26.2605042,0 L29.1666667,6.3335 C22.067577,9.03355556 17.5070028,17.0453889 17.5070028,23.5555556 L29.1287348,23.5555556 L29.1287348,53 L0,53 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
