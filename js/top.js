@@ -8,6 +8,10 @@ window.addEventListener( "resize", toparrow);
 // Fonction pour faire apparaitre la flèche pour remonter le document
 function toparrow()
 {
+
+	// On va calculer la taille du header
+	var header = document.querySelector("header").offsetHeight;
+
 	// On va chercher dans le css le ".toparrow"
 	var toparrow = document.querySelector(".toparrow");
 
@@ -15,7 +19,7 @@ function toparrow()
 	var y = window.scrollY;
 
 	// La flèche n'apparait qu'à partir d'un certains moment
-	if(y >= 552)
+	if(y >= header)
 	{
 		toparrow.classList.add('js__toparrow--display');
 	}else{

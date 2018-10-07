@@ -8,6 +8,13 @@ window.addEventListener( "resize", scrollmenu);
 // Fonction pour le menu
 function scrollmenu()
 {
+
+	// On va calculer la taille de chacuns des blocs pour indiquer exactement où se situe la navbar au moment du scroll
+	var header = document.querySelector("#home").offsetHeight;
+	var about = document.querySelector("#about").offsetHeight;
+	var contact = document.querySelector(".content__module--contact").offsetHeight + document.querySelector("#contact").offsetHeight;
+	var end = document.body.offsetHeight - contact*1.1;
+
 	// On va chercher dans le css le ".navbar"
 	var navbar = document.querySelector(".navbar");
 
@@ -18,7 +25,7 @@ function scrollmenu()
 	var links = document.querySelectorAll('.navcontent__item__link');
 
 	// Le menu n'apparait qu'à partir d'un certains moment
-	if(y >= 950)
+	if(y >= header)
 	{
 		// On ajoute un css à l'élément .navbar
 		navbar.classList.add('js__navbar--fixed');
@@ -28,14 +35,14 @@ function scrollmenu()
             links[j].classList.remove('navcontent__item__link--active');
 		}
 		links[1].classList.add('navcontent__item__link--active');
-		if(y >= 2033)
+		if(y >= header + about)
 		{
 			links[1].classList.remove('navcontent__item__link--active');
 			links[2].classList.add('navcontent__item__link--active');
 		}
 
 		// La navbar ne s'affichera plus au delà de cette valeur
-		if(y >= 3183)
+		if(y >= end)
 		{
 			navbar.classList.remove('js__navbar--fixed');
 		}
