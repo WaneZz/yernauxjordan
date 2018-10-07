@@ -711,10 +711,10 @@ a
 .content__module--contact
 {
 	background-color: #383838;
-	background-image: url(../img/map.png);
+	background-image: url(../img/video.png);
 
 	background-size: cover;
-	background-blend-mode: screen;
+	/* background-blend-mode: screen; */
 	background-repeat: no-repeat;
 }
 
